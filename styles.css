@@ -110,6 +110,12 @@ footer.site-footer {
     font-size: 0.8rem;
     color: #999;
 }
+.ad-slot.ad-360 ins,
+.ad-slot.ad-360 img {
+    width: 360px;
+    height: 360px;
+    display: inline-block;
+}
 .back-link {
     font-family: Arial, sans-serif;
     font-size: 0.9rem;
