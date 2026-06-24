@@ -11,6 +11,29 @@
   data-base-url="https://staging.adstudio.cloud"
   data-bucket-url="https://adstudio-sdk-staging-996209450149.s3.ap-southeast-1.amazonaws.com/"
   data-init-delay="5000"></script>
+    <style>
+        .redirect-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #e84c3d;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            margin-bottom: 20px;
+            text-decoration: none;
+        }
+        .redirect-btn:hover {
+            background: #c0392b;
+        }
+        .redirect-btn:active {
+            transform: scale(0.97);
+        }
+    </style>
 </head>
 <body>
 
@@ -28,6 +51,12 @@
 
 <div class="layout">
     <main>
+
+        <!-- Redirect Button -->
+        <button class="redirect-btn" onclick="window.open('https://revads.djaxbidder.com/mobile_sdk_606/www/admin/plugins/redirectAd/redirect.php?zoneid=30', '_blank')">
+            Visit Our Sponsor
+        </button>
+
         <!-- no category - AdStudio Asynchronous JS Tag - Generated with Revive Adserver v5.4.1 -->
         <div class="ad-slot">
             <div class="ad-label">Advertisement</div>
